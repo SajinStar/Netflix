@@ -168,7 +168,7 @@ font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 
 .firstCardImage  {
   position: relative;
-  width: 530px ;
+  
   display: flex;
   justify-content: center;
 }
@@ -183,7 +183,7 @@ font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     width: 387px;
     height: auto;
     top: 82px;
-    left: 69px;
+    left: 141px;
 }
 
 
@@ -218,8 +218,149 @@ font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
   
 }
 
+.secondCardImage  {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.secondCardImage img  {
+ 
+  width: 530px;
+  height: auto;
+}
+
+.secondCardImgInside {
+  background-color: black;
+  display: flex;
+  position: absolute;
+  border: 3px solid  #222;
+  border-radius: 6px;
+  justify-content: space-between;
+  padding: .5em .75em;
+  top: 270px;
+  left: 160px;
+
+}
+
+.secondCardImgInside .secondCardImgInsideImg {
+  width: 50px;
+  height: auto;
+  margin-right: 1em;
+}
+
+.secondCardDownlodIcon {
+  width: 3em !important;
+  height: 3em !important;
+  outline: 2px solid #000;
+  outline-offset: -2px;
+  margin-left: 60px;  
+  margin-top: 15px;
+  
+}
+
+.secondCardImgInside h6 {
+  padding-top: 20px ;
+}
+.thirdCard {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-bottom: 8px solid #222;
+ 
+}
+
+.thirdCardItems {
+  display: flex;
+  
+}
+
+.thirdCardTextArea {
+  display: flex;
+  align-items: center;
+  padding: 50px 50px 0px 100px;
+  flex-direction: row;
+}
+
+.thirdCardTextArea h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+.thirdCardTextArea h3 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  
+}
+
+.thirdCardImage  {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.thirdCardImage img  {
+  margin-top: 30px;
+  z-index: 9999;
+  width: 560px;
+  height: auto;
+}
+.thirdCardImage video  {
+  position: absolute;
+  width: 354px;
+  height: auto;
+  top: 60px;
+  left: 151px;
+}
 
 
+
+
+.fourthCard {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-bottom: 8px solid #222;
+}
+
+.fourthCardItems {
+  display: flex;
+}
+
+
+.fourthCardTextArea {
+  display: flex;
+  align-items: center;
+  padding: 50px 50px 0px 20px;
+}
+
+
+.fourthCardTextArea h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+.fourthCardTextArea h3 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  
+}
+
+.fourthCardImage  {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.fourthCardImage img  {
+ margin-top: 50px;
+  width: 530px;
+  height: auto;
+}
 
 
 

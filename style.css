@@ -363,12 +363,134 @@ font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 
+.storyCardText  h1 {
+  
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+  text-align: center;
+  font-weight: bold;
+}
 
 
 
+footer {
+  background-color: black;
+  color: #757575;
+  padding: 60px 250px 30px 200px;
+}
 
+footer a {
+  font-size: 13px;
+  color: #757575 !important ;
+  text-decoration: none;
 
+}
 
+.footerRow .col-lg-3 {
+  line-height: 30px;
+}
 
+.footerContainer h5 {
+  padding-bottom: 30px;
+  font-size: 16px !important
+}
+.footerContainer h5 a {
+  
+  font-size: 16px !important
+}
 
+#footerSelectlanguage {
+  background: rgba(0,0,0,.4);
+  border: 1px normal #757575;
+  color: #757575;
+  font-size: 15px;
+  padding:15px 25px;
+  line-height: 1.3em;
+  font-weight: 500;
+}
 
+.accordion h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+  font-weight: bold;
+  padding: 0px 0px 44px 93px;
+}
+
+.storyCard {
+  height: auto;
+  background-color: black !important;
+  color: white !important;
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  border-bottom: 8px solid #222;
+
+}
+
+.accordion-item {
+  
+  background-color: #303030;
+  margin-bottom: 10px !important;
+}
+
+.accordion-button {
+  background-color: #303030;
+  color: white;
+  padding:1em 26.2em 1em 1.4em;
+  font-weight: 400;
+  width: 100%;
+  border: 0;
+  display: block;
+    text-align: left;
+    font-size: 24px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom: 1px solid black;
+  color: white;
+  background-color: #303030;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-body {
+  width: 934px;
+    font-size: 1.625rem;
+    font-weight: 400;
+    height: auto;
+}
+
+.storyCardFooter {
+  padding-top: 100px;
+}
+
+.storyCardInput {
+  width: 450px;
+  height: 60px;
+  outline: transparent;
+  padding-left: 10px;
+  margin-left: 130px;
+  margin-bottom: 80px;
+}
+.storyCardButton {
+  padding: 5px 30px 13.5px 30px;
+  BORDER: 1px solid #e50914;
+  background-color: #e50914;
+  font-size: 1.625rem ;
+  margin-left : -5px ;
+  color: white;
+
+}
+
+.storyCardButton i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.storyCardFootertext {
+  padding-bottom: 15px;
+    font-size: 1.2rem;
+    margin-top: 64px;
+    margin-left: 170px;
+}
